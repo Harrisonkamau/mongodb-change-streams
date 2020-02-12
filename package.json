@@ -1,0 +1,13 @@
+{
+  "name": "mongodb-streams",
+  "version": "1.0.0",
+  "description": "A demo app to show usage of Change Streams in MongoDB",
+  "main": "index.js",
+  "author": "Harrison Kamau",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "mongodb": "^3.5.2"
+  }
+}
