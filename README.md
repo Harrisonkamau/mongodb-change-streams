@@ -75,8 +75,6 @@ db.demo.insert({ name: 'Harrison' })
 
 Go back to the terminal running: `node lib/index.js` and behold!
 
-Drop me an [email](kamauharrison87@gmail.com) if you don't see anything.
-
-
+Drop me an [email](kamauharrison87@gmail.com) if you don't see anything or check out the screencast under [assets](assets/mongo-change-streams-demo.mov)
 ## References
 [Introduction to MongoDB Change streams](https://www.mongodb.com/blog/post/an-introduction-to-change-streams)
