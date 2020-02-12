@@ -24,7 +24,7 @@ Having higher versions that the ones required here would be an added advantage.
 
 Create a `.env` file in the root of this project and add the following:
 ```sh
-# NOTE: r1 is the name you choose to give to your replica set.
+# NOTE: r1 is the name you choose to give to your replica set (as shown below).
 MONGODB_URI='mongodb://localhost/?replSet=r1'
 ```
 
@@ -75,6 +75,7 @@ db.demo.insert({ name: 'Harrison' })
 
 Go back to the terminal running: `node lib/index.js` and behold!
 
-Drop me an [email](kamauharrison87@gmail.com) if you don't see anything or check out the screencast under [assets](assets/mongo-change-streams-demo.mov)
+Drop me an [email](kamauharrison87@gmail.com) if you don't see anything or check out the screencast under [assets](assets/mongo-change-streams-demo.mov). You may need to download it for now.
+
 ## References
 [Introduction to MongoDB Change streams](https://www.mongodb.com/blog/post/an-introduction-to-change-streams)
