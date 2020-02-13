@@ -58,7 +58,7 @@ After running `rs.initiate()` your DB will officially launch in a replica mode. 
 ## Setup
 After cloning the repo to your machine, install dependencies with: `yarn install`
 
-Open a new terminal and run: `node lib/index.js`
+Open a new terminal and run: `yarn listen`
 
 You won't see any DB logs just yet. Navigate back to the Mongo Shell and insert arbitrary data to the `demo` collection on our `test` DB:
 ```sh
@@ -73,9 +73,11 @@ use test
 db.demo.insert({ name: 'Harrison' })
 ```
 
-Go back to the terminal running: `node lib/index.js` and behold!
+Go back to the terminal running: `yarn listen` and behold!
 
 Drop me an [email](kamauharrison87@gmail.com) if you don't see anything or check out the screencast under [assets](assets/mongo-change-streams-demo.mov). You may need to download it for now.
 
 ## References
 [Introduction to MongoDB Change streams](https://www.mongodb.com/blog/post/an-introduction-to-change-streams)
+
+[Scroll to Top](#mongodb-streams)
