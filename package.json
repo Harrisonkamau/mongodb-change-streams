@@ -9,5 +9,11 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "mongodb": "^3.5.2"
+  },
+  "scripts": {
+    "listen": "nodemon lib/newListener"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
   }
 }
