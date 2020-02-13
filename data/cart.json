@@ -1,0 +1,22 @@
+{
+  "id": 1,
+  "createdAt": "now",
+  "customer": {
+    "name": "Harrison",
+    "email": "harrison.kamau@test.com"
+  },
+  "items": [
+    {
+      "sku": "E11",
+      "name": "Sugar",
+      "price": "$40"
+    },
+    {
+      "sku": "E12",
+      "name": "Salt",
+      "price": "$10"
+    }
+  ],
+  "status": "complete",
+  "note": "This was a great product. Very nice doing business with you"
+}
